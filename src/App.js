@@ -32,7 +32,8 @@ class App extends Component {
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
-        {this.renderPage()}
+        <div className="container mainContainer">{this.renderPage()}</div>
+        
       </div>
     );
   }

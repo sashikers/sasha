@@ -3,13 +3,32 @@
 }
 
 body {
-  background-color: #C3D898;
+  background-color: #596F62;
 }
 
 nav {
   background-color: #1C3144;
+  color: #C3D898;
 }
 
 .brand-logo {
   padding: 10px;
+  margin-left: 10px;
 }
+
+.mainContainer {
+  background-color: #C3D898;
+}
+
+.profilePhoto {
+  width: 100%;
+  margin: 15px;
+}
+
+.active {
+  background-color: #70161E;
+}
+
+.homeContent {
+  /* padding: 10px; */
+} 

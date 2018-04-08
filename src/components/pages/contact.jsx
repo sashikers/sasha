@@ -7,9 +7,9 @@ const Contact = () => (
         </div>
         <div className="col s12 m4">
             <h5>Links</h5>
-            <a href="https://github.com/sashikers"><img className="linkLogo" src="./assets/images/githublogo.png" /></a>
-            <a href="https://www.linkedin.com/in/sasha-bessonova/"><img className="linkLogo" src="./assets/images/linkedinlogo.png" /></a>
-            <a href="https://stackoverflow.com/users/8155732/sashikers"><img className="linkLogo" src="./assets/images/stackoverflowlogo.png" /></a>
+            <a href="https://github.com/sashikers" target="_blank"><img className="linkLogo" src="./assets/images/githublogo.png" /></a>
+            <a href="https://www.linkedin.com/in/sasha-bessonova/" target="_blank"><img className="linkLogo" src="./assets/images/linkedinlogo.png" /></a>
+            <a href="https://stackoverflow.com/users/8155732/sashikers" target="_blank"><img className="linkLogo" src="./assets/images/stackoverflowlogo.png" /></a>
         </div>
 
 

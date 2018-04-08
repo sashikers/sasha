@@ -12,8 +12,8 @@ const PortfolioItem = props => (
 
             </div>
             <div className="card-action">
-                <a className="cardLink" href={props.link}>Link</a>
-                <a className="cardLink" href={props.github}>Github</a>
+                <a className="cardLink" href={props.link} target="_blank">Link</a>
+                <a className="cardLink" href={props.github} target="_blank">Github</a>
             
             </div>
 

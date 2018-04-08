@@ -12,6 +12,20 @@
         "link": "https://sashikers.github.io/TriviaGame/",
         "description": "A a trivia game using HTML/CSS, Javascript, and Jquery, focusing on TimeOut requests.",
         "screenshot": "./assets/images/triviagame.png"
+    },
+    {
+        "name": "Friend Finder",
+        "github": "https://github.com/sashikers/friend-finder",
+        "link": "https://friend-finder-20171023.herokuapp.com/",
+        "description": "An application where a user takes a survey and gets matched up with a friend in the database based on responses given. Application utilizes Node.js and Express.",
+        "screenshot": "./assets/images/friendfinder.png"
+    },
+    {
+        "name": "Burgers",
+        "github": "https://github.com/sashikers/burger",
+        "link": "https://github.com/sashikers/burger",
+        "description": "Utilize MySQL, Node, Express, Handlebars, and a custom ORM. Use MVC design pattern: Use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
+        "screenshot": "./assets/images/burgers.png"
     }
 ]
 

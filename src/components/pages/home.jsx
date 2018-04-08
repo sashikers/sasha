@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => (
     <div className="row">
         <div className="col s12 m4">
-            <img className="profilePhoto" src="./assets/images/sasha_HR.jpg" />
+            <img className="profilePhoto" src="./assets/images/sasha_HR.jpg" alt="Sasha" />
         </div>
         <div className="col s12 m8 homeContent">
             <p>

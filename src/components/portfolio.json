@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Clicky game",
+        "github": "https://github.com/sashikers/react-clicky-game",
+        "link": "https://sashikers.github.io/react-clicky-game/",
+        "description": "A memory game built using React",
+        "screenshot": "./assets/images/clickygame.png"
+    },
+    {
+        "name": "Trivia game",
+        "github": "https://github.com/sashikers/TriviaGame",
+        "link": "https://sashikers.github.io/TriviaGame/",
+        "description": "A a trivia game using HTML/CSS, Javascript, and Jquery, focusing on TimeOut requests.",
+        "screenshot": "./assets/images/triviagame.png"
+    }
+]
+

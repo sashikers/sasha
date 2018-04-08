@@ -1,7 +1,23 @@
 import React from 'react';
 
 const Contact = () => (
-    <div>This is the Contact page</div>
+    <div className="row">
+        <div className="col s12 m8">
+            <h5>Contact me</h5>
+        </div>
+        <div className="col s12 m4">
+            <h5>Links</h5>
+            <a href="https://github.com/sashikers"><img className="linkLogo" src="./assets/images/githublogo.png" /></a>
+            <a href="https://www.linkedin.com/in/sasha-bessonova/"><img className="linkLogo" src="./assets/images/linkedinlogo.png" /></a>
+            <a href="https://stackoverflow.com/users/8155732/sashikers"><img className="linkLogo" src="./assets/images/stackoverflowlogo.png" /></a>
+        </div>
+
+
+        <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
+
+    </div>
 );
 
 export default Contact; 

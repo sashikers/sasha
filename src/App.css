@@ -79,3 +79,8 @@ a:link {
 .card-content {
   background-color: #7EA16B;
 }
+
+.linkLogo {
+  width: 50px;
+  margin: 10px;
+}

@@ -9,6 +9,7 @@ const PortfolioItem = props => (
             <div className="card-content">
                 <span className="card-title">{props.name}</span>
                 <p className="projectDescription">{props.description}</p>
+
             </div>
             <div className="card-action">
                 <a className="cardLink" href={props.link}>Link</a>

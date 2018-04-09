@@ -11,7 +11,10 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script type="text/javascript" src="./public.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,19 +30,9 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCNpTWMv3JKhycjKx-SPULYnZNy1h3LySw",
-        authDomain: "personal-website-e0a28.firebaseapp.com",
-        databaseURL: "https://personal-website-e0a28.firebaseio.com",
-        projectId: "personal-website-e0a28",
-        storageBucket: "",
-        messagingSenderId: "1025900880812"
-      };
-      firebase.initializeApp(config);
-    </script>
+    
+    
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -52,6 +45,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
 
   </body>
 </html>

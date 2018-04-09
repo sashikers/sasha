@@ -31,7 +31,7 @@ nav {
   margin: 15px;
 }
 
-.active {
+li.active {
   background-color: #70161E;
 }
 
@@ -83,4 +83,34 @@ a:link {
 .linkLogo {
   width: 50px;
   margin: 10px;
+}
+
+.btn {
+  background-color: #70161E;
+  margin-bottom: 15px;
+}
+
+#commentName, #commentEmail, #commentTextArea {
+  /* background-color: black; */
+  border-bottom: 1px #1C3144 solid;
+}
+
+#commentName:focus, #commentEmail:focus, #commentTextArea:focus {
+  /* background-color: black; */
+  border-bottom: 1px #70161E solid;
+  box-shadow: none;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+
+form {
+  background-color: #7EA16B;
+  padding: 10px;
+  margin: 10px;
+}
+
+label {
+  font: black;
 }
